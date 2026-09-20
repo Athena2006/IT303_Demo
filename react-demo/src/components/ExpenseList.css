@@ -1,0 +1,64 @@
+.expense-container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #ccc;
+}
+
+.expense-container h2 {
+  margin-top: 0;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+  padding: 20px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.expense-item h3 {
+  margin: 0;
+}
+
+.expense-item p {
+  margin: 5px 0;
+}
+
+.delete-button {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background: #b91c1c;
+}
+
+.total {
+  margin-top: 20px;
+  padding: 20px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.total h2 {
+  margin: 0;
+}
+
+.total p {
+  margin-bottom: 0;
+}
